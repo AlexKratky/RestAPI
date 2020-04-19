@@ -1,0 +1,22 @@
+{
+    "name": "alexkratky/restapi",
+    "description": "REST API class.",
+    "keywords": ["php", "rest", "api"],
+    "homepage": "https://panx.eu/",
+    "license": ["MIT"],
+    "authors": [{
+            "name": "Alex Kratky",
+            "homepage": "https://alexkratky.com"
+        }
+    ],
+    "require": {
+        "php": ">=7.0",
+        "alexkratky/db": "^0.2.0",
+        "alexkratky/authx": "^0.2.1",
+        "alexkratky/requestx": "^0.2.0",
+        "pragmarx/google2fa-qrcode": "^1.0"
+    },
+    "autoload": {
+        "files": ["src/RestAPI.php"]
+    }
+}
