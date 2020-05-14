@@ -11,9 +11,9 @@
     ],
     "require": {
         "php": ">=7.0",
-        "alexkratky/db": "^0.2.0",
-        "alexkratky/authx": "^0.2.1",
-        "alexkratky/requestx": "^0.2.0",
+        "alexkratky/db": "^1.0.0",
+        "alexkratky/authx": "^1.0.0",
+        "alexkratky/requestx": "^1.0.0",
         "pragmarx/google2fa-qrcode": "^1.0"
     },
     "autoload": {
